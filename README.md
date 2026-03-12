@@ -2,7 +2,7 @@
 
 A fun ArcGIS AI components demo for exploring haunted places in the U.S. with a map assistant.
 
-<img width="1296" height="793" alt="image" src="https://github.com/user-attachments/assets/3035bf4d-d537-4bc9-a0a5-f296712a8347" />
+<img width="1295" height="789" alt="image" src="https://github.com/user-attachments/assets/0e313414-dc21-426e-8afb-8295b4564b08" />
 
 ## What it does
 
