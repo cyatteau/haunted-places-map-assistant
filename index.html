@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Haunted Places Hotline | ArcGIS AI Assistant (beta)</title>
+    <script type="module" src="https://js.arcgis.com/5.0/"></script>
+  </head>
+
+  <body>
+    <calcite-shell>
+      <arcgis-map id="haunted-map" item-id="defa425aa8f34ac48577fca7be5132a1">
+        <arcgis-zoom slot="top-left"></arcgis-zoom>
+        <arcgis-expand slot="top-left">
+          <arcgis-legend></arcgis-legend>
+        </arcgis-expand>
+      </arcgis-map>
+
+      <calcite-shell-panel slot="panel-end" width="l">
+        <calcite-panel>
+          <arcgis-assistant
+            log-enabled
+            copy-enabled
+            reference-element="#haunted-map"
+            heading="Haunted Places Hotline"
+            description="Ask the map questions about haunted places, then watch it filter and navigate."
+            entry-message="Welcome. Ask me to find a haunted place by state, type, or spook score.">
+            <arcgis-assistant-navigation-agent></arcgis-assistant-navigation-agent>
+            <arcgis-assistant-data-exploration-agent></arcgis-assistant-data-exploration-agent>
+            <arcgis-assistant-help-agent></arcgis-assistant-help-agent>
+          </arcgis-assistant>
+        </calcite-panel>
+      </calcite-shell-panel>
+    </calcite-shell>
+
+    <script type="module">
+      const assistant = document.querySelector("arcgis-assistant");
+      assistant.suggestedPrompts = [
+        "Go to Salem, Massachusetts.",
+        "How many haunted places are in Massachusetts?",
+        "Show only cemeteries in Massachusetts.",
+        "Which place has the highest spook score in Massachusetts?",
+        "Tell me the story for that place."
+      ];
+    </script>
+  </body>
+</html>
