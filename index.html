@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Haunted Places Hotline | ArcGIS AI Assistant (beta)</title>
+    <title>USA Haunted Places | ArcGIS AI Assistant (beta)</title>
     <script type="module" src="https://js.arcgis.com/5.0/"></script>
   </head>
 
@@ -22,7 +22,7 @@
             log-enabled
             copy-enabled
             reference-element="#haunted-map"
-            heading="Haunted Places Hotline"
+            heading="USA Haunted Places"
             description="Ask the map questions about haunted places, then watch it filter and navigate."
             entry-message="Welcome. Ask me to find a haunted place by state, type, or spook score.">
             <arcgis-assistant-navigation-agent></arcgis-assistant-navigation-agent>
@@ -37,9 +37,9 @@
       const assistant = document.querySelector("arcgis-assistant");
       assistant.suggestedPrompts = [
         "Go to Salem, Massachusetts.",
-        "How many haunted places are in Massachusetts?",
-        "Show only cemeteries in Massachusetts.",
-        "Which place has the highest spook score in Massachusetts?",
+        "How many haunted places are in Texas?",
+        "Show only cemeteries in Virginia.",
+        "Which place has the highest spook score in California?",
         "Tell me the story for that place."
       ];
     </script>
