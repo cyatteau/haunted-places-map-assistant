@@ -8,6 +8,34 @@ A fun ArcGIS AI components demo for exploring haunted places in the U.S. with a 
 
 This app lets you ask the map questions about haunted places and watch the assistant navigate, filter, and explore the data.
 
+## How to Try This App
+
+Once the app is running, you can interact with the map assistant by asking questions about haunted places in the United States. The assistant will help navigate the map, filter locations, and explore haunted sites.
+
+### Where the Haunted Places Data Comes From
+The haunted places shown in this app come from a haunted places web map / feature layer used in ArcGIS. The dataset contains locations and descriptions of reported haunted places across the United States.
+
+### What the Assistant Can Help With
+You can ask the assistant to:
+
+- Explore haunted places on the map
+- Find haunted locations in specific states or cities
+- Learn about famous haunted places
+- Navigate or filter the haunted places data
+
+### Example Prompts
+Try asking questions like:
+
+- "Show me haunted places in California"
+- "What are the most famous haunted places?"
+- "Zoom to haunted places in Texas"
+- "Tell me about haunted places near New York"
+
+### Beta / Setup Notes
+- This project uses ArcGIS AI components, which are currently in beta.
+- Some features may require an ArcGIS Online account or organization settings.
+- Results depend on the haunted places dataset used in the web map.
+
 ## Built with
 
 - ArcGIS Maps SDK for JavaScript 5.0
