@@ -4,6 +4,9 @@ A fun ArcGIS AI components demo for exploring haunted places in the U.S. with a 
 
 <img width="1295" height="789" alt="image" src="https://github.com/user-attachments/assets/0e313414-dc21-426e-8afb-8295b4564b08" />
 
+## Live demo
+Find the [demo](https://arcgis-ai-haunted-places.netlify.app/)
+
 ## What it does
 
 This app lets you ask the map questions about haunted places and watch the assistant navigate, filter, and explore the data.
